@@ -5,6 +5,7 @@ const {generateToken }=require("../utils/generateToken")
 
 //create a new user
 
+  
 const createUser = async(req, res)=> {
 
     const{username, email, password} = req.body;
